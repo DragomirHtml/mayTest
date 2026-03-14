@@ -4,11 +4,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Energy } from './components/Energy'
 import { Pythagras } from './components/Pythagpras'
-import { Cylinder } from './components/cylinder'
 import { Quadra } from './components/Quadra'
 import { Quadrasum } from './components/Quadrasum'
 import { Water } from './components/Water'
 import { Log } from './components/Log'
+import { Cylinder } from './components/Cylinder'
 
 function App() {
   const [count, setCount] = useState(0)
