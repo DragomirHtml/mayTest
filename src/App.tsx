@@ -5,6 +5,7 @@ import { Component } from "react"
 import Dummy1 from "./Dummy1"
 import Dummy3 from "./Dummy3"
 import Dummy2 from "./Dummy2"
+import Posts from "./components/Posts";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,9 @@ const router = createBrowserRouter([
     
     path: '/activated',
     Component: Dummy3,
+  }, {
+    path: "posts",
+    Component: Posts
   }],
   },
  
